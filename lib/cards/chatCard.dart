@@ -15,7 +15,7 @@ class chatCard extends StatelessWidget {
   chatCard({required this.user});
   @override
   Widget build(BuildContext context) {
-    print(APIs.lastmassage(user.id));
+    // print(APIs.lastmassage(user.id));
         return InkWell(
           child: Card(
             margin: EdgeInsets.symmetric(vertical: 4,horizontal: 7),

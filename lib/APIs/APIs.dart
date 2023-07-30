@@ -77,8 +77,7 @@ class APIs{
     });
 }
 
-  static Future<QuerySnapshot<Map<String, dynamic>>> lastmassage(String sender_uid) async{
-   return await db.collection('user/${getConvId(sender_uid)}/massages').limit(1).orderBy('time',descending: true).get().
-   ;
-  }
+  // static Future<QuerySnapshot<Map<String, dynamic>>> lastmassage(String sender_uid) async{
+  //  return await db.collection('user/${getConvId(sender_uid)}/massages').limit(1).orderBy('time',descending: true).get()
+  // }
 }
